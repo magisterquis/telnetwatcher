@@ -11,17 +11,17 @@ Examples
 --------
 Capture HTTP traffic:
 ```
-$ doas out/telnetwatcher -p 80 em0
+telnetwatcher -p 80 em0
 ```
 
 Capture keystrokes sent to a telnet server:
 ```bash
-# telnetwatcher -t -p 23 em0 udp
+telnetwatcher -t -p 23 em0 udp
 ```
 
 Capture redis to a particular host:
 ```bash
-# telnetwatcher em0 host 172.15.2.133 and tcp port 6379
+telnetwatcher em0 host 172.15.2.133 and tcp port 6379
 ```
 
 Usage
