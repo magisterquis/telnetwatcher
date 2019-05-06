@@ -7,6 +7,8 @@ monitor a telnet honeypot in real-time, now dumps any TCP/UDP traffic.
 It's written for OpenBSD.  It'll probably work on other OSs with minor
 modifications.
 
+For legal use only.
+
 Examples
 --------
 Capture HTTP traffic:
