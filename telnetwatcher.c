@@ -1,9 +1,9 @@
 /*
- * telnetwatcher.g
+ * telnetwatcher.c
  * Print payload of tcp push packets
  * By J. Stuart McMurray
  * Created 20170719
- * Last Modified 20190504
+ * Last Modified 20190507
  */
 
 #include <sys/types.h>
