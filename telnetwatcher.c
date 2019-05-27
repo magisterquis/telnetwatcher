@@ -261,6 +261,7 @@ handler(u_char *usr, const struct pcap_pkthdr *hdr, const u_char *pkt)
                         printf("%c", pkt[i]);
                 else if (printhex)
                         printf("<%02x>", pkt[i]);
+        fflush(stdout);
 }
 
 /* print_packet prints the len bytes at pkt to stderr in hex followed by a
